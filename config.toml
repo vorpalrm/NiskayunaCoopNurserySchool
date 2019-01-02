@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Meghna | Responsive Multipurpose Parallax HTML5 Template"
+title = "Niskayuna Co-op Nursery School"
 theme = "meghna-hugo"
 
 # Menu
@@ -21,11 +21,6 @@ theme = "meghna-hugo"
     weight = 4
 
     [[menu.nav]]
-    name = "Team"
-    URL = "our-team"
-    weight = 5
-
-    [[menu.nav]]
     name = "Our Classes"
     URL = "pricing"
     weight = 6
@@ -35,15 +30,17 @@ theme = "meghna-hugo"
     URL = "blog"
     weight = 7
 
-    [[menu.nav]]
-    name = "Contact"
-    URL = "contact-us"
-    weight = 8
 
     [[menu.nav]]
     name = "Philosophy"
     URL = "philosophy"
+    weight = 8
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
     weight = 9
+
 
 # Site params
 [params]
@@ -65,7 +62,7 @@ custom_css = ["css/custom.css"]
 
     # call to action
     [params.cta]
-    enable = true
+    enable = false
     title = "Great Design & Incredible Features"
     content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
     btnURL = "#"
@@ -73,7 +70,7 @@ custom_css = ["css/custom.css"]
 
     # counter
     [params.counter]
-    enable = true
+    enable = false
     bgImage = "images/backgrounds/bg-1.jpg"
         [[params.counter.counterItem]]
         title = "Happy Clients"
