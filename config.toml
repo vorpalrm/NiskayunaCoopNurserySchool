@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://ecstatic-goldstine-3868b1.netlify.com/"
 languageCode = "en-us"
 title = "Niskayuna Co-op Nursery School"
 theme = "meghna-hugo"
