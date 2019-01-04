@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Niskayuna Co-op Nursery School</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Niskayuna Co-op Nursery School</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Oct 2018 14:51:12 +0600</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Brooks’ Chicken BBQ Fundraiser 2018</title>
+      <link>http://example.org/blog/brooks-chicken/</link>
+      <pubDate>Tue, 30 Oct 2018 14:51:12 +0600</pubDate>
+      
+      <guid>http://example.org/blog/brooks-chicken/</guid>
+      <description>Support early education with BBQ!
+Buy tickets to our Brooks BBQ fundraiser through www.paypal.com, by sending $12 to treasurer@niskayunaco-opnurseryschool.com.</description>
+    </item>
+    
+    <item>
+      <title>Silent Auction 2018 Tickets</title>
+      <link>http://example.org/blog/silent-auction-tickets/</link>
+      <pubDate>Sun, 01 Apr 2018 14:51:12 +0600</pubDate>
+      
+      <guid>http://example.org/blog/silent-auction-tickets/</guid>
+      <description>All ticket sales have closed. We can’t wait to see you at the auction!</description>
+    </item>
+    
+    <item>
+      <title>Silent Auction 2018 – Early Bird Ticket Special!</title>
+      <link>http://example.org/blog/silent-auction-tickets-earlybird/</link>
+      <pubDate>Sun, 11 Mar 2018 14:51:12 +0600</pubDate>
+      
+      <guid>http://example.org/blog/silent-auction-tickets-earlybird/</guid>
+      <description>Early Bird ticket sales for the 2018 Silent Auction have closed, but it’s not too late to get your tickets! See the post above for the new link to PayPal.</description>
+    </item>
+    
+    <item>
+      <title>2018 Silent Auction…Coming Soon!</title>
+      <link>http://example.org/blog/silent-auction-tickets-coming-soon/</link>
+      <pubDate>Tue, 06 Feb 2018 14:51:12 +0600</pubDate>
+      
+      <guid>http://example.org/blog/silent-auction-tickets-coming-soon/</guid>
+      <description>Tickets will be going on sale soon!
+Prizes to be announced!</description>
+    </item>
+    
+  </channel>
+</rss>
