@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = ""
 languageCode = "en-us"
 title = "Niskayuna Co-op Nursery School"
 theme = "meghna-hugo"
@@ -16,9 +16,14 @@ theme = "meghna-hugo"
     weight = 3
 
     [[menu.nav]]
-    name = "Portfolio"
-    URL = "portfolio"
+    name = "Our Board"
+    URL = "our-team"
     weight = 4
+       
+    [[menu.nav]]
+    name = "Our Traditions"
+    URL = "our-traditions"
+    weight = 5
 
     [[menu.nav]]
     name = "Our Classes"
@@ -91,7 +96,7 @@ custom_css = ["css/custom.css"]
         title = "Cups of Coffee"
         icon = "tf-ion-coffee"
         count = "2500"
-    
+	
     # footer
     [params.footer]
         copyright = "Themefisher Team"

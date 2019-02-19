@@ -468,7 +468,7 @@ a:hover {
 }
 
 .section-bg {
-  background: #292F36;
+  background: #F3F0CF;
 }
 
 .overly {
@@ -1185,8 +1185,8 @@ a:hover {
   Our Team
 ==================================================================*/
 .team-member {
-  background-color: #292F36;
-  margin-bottom: 10px;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 .team-member:hover .mask {
@@ -1262,7 +1262,7 @@ a:hover {
 }
 
 .member-meta {
-  padding: 15px;
+  padding: 15px 15px 5px 15px;
 }
 
 .member-meta h4 {
