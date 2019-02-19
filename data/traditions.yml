@@ -1,0 +1,34 @@
+enable : true
+heading : Our
+headingSpan : Traditions
+teamMember :
+  - name : Summer Play Dates and Picnic
+    description : Parents coordinate their schedules to get together over the summer so that parents and children can become familiar with each other. Many pack a lunch every time, and traditionally, the final play date is joined by the teacher, who brings along dessert to share.
+  - name : Summer Home Visits
+    description : The teacher makes a quick visit (10 minutes or so) to each child’s home. This is an opportunity for each child to ask about school and to become more familiar with the teacher.
+  - name : Phase-in Days
+    description : A short school day in the class is a gentle way to begin the school year. The two-day class will be divided into two sessions.
+  - name : Apple Picking
+    description : While the new 3-year-olds continue to adjust to the classroom, our adventurous four-year-olds take a trip to the apple orchard, with stories and cooking in class with their bounty.
+  - name : Garage Sale
+    description : A major fundraiser and well-known annual event in the community, all families participate in the garage sale.
+  - name : Halloween Party
+    description : The children scoop out pumpkin seeds and toast them and enjoy other spooky activities like creating finger ghosts at circle time. Parents send along tricks or treats for their children to distribute to their friends.
+  - name : Family Dinner
+    description : Students and their families come together to share pizza or potluck. With music and dancing and special crafts, this event is fun for everyone.
+  - name : Valentine’s Day
+    description : Students address Valentines to each of their classmates and deliver them to homemade mailboxes.
+  - name : Original Works
+    description : Students’ special artwork is reproduced for t-shirts, mouse pads, mugs, etc. . . . This great fundraiser is generally timed so that you can take care of your Mother’s Day shopping for Grandma.
+  - name : School Pictures (Spring)
+    description : Individual and group class portraits take place during a normal school day. You can bring along siblings and have them pose for their own portraits or with their preschool brother or sister.
+  - name : Dessert Night
+    description : Students share a special night with dad (or a special someone) enjoying desserts that they’ve prepared in school.
+  - name : I Love You Tea
+    description : Students share a morning with mom (or a special someone), entertaining her and presenting her with a handmade gift.
+  - name : Parent-Teacher Conferences (Spring)
+    description : This is an opportunity for the teacher to cover basic information about how your child has been evolving in school. Of course, if you have specific concerns you can always ask the teacher. You’ll also have the opportunity to see all of the children learning and growing during helping parent days.
+  - name : Silent Auction
+    description : This fundraiser is a night out for grown ups. Bargains for you and income for the school.
+
+
