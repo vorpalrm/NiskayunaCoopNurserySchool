@@ -5,7 +5,7 @@ pricingTable :
   - title : 3-Year Old
     price : $115
     time : month
-    btnURL : #
+    btnURL : https://forms.office.com/Pages/ResponsePage.aspx?id=k14FNi2NBUy_Bh6-vG_skBZyNlOPOc9DnYMbag8xunZUQzIyMlNYUTBVMjlZNVRQSjc1VUVESk1DVy4u
     btnText : Signup
     plan :
       - planDetails : 2-Day Class
@@ -17,7 +17,7 @@ pricingTable :
   - title : 4-Year Old
     price : $140
     time : month
-    btnURL : #
+    btnURL : https://forms.office.com/Pages/ResponsePage.aspx?id=k14FNi2NBUy_Bh6-vG_skBZyNlOPOc9DnYMbag8xunZUQzIyMlNYUTBVMjlZNVRQSjc1VUVESk1DVy4u
     btnText : Signup
     plan :
       - planDetails : 3-Day Class
