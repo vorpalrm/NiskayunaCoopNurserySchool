@@ -502,7 +502,26 @@ a:hover {
 
 .slick-slide {
   outline: none;
+  text-align: center;
 }
+.slick-list,
+.slick-track {
+    height: 200px;
+}
+
+
+.slick-slide::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.slick-slide img {
+  vertical-align: middle;
+  display: inline-block;
+}
+
 
 /* CSS mfp-with-zoom class */
 .mfp-with-zoom .mfp-container,

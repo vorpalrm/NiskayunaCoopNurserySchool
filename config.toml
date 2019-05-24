@@ -11,36 +11,33 @@ theme = "meghna-hugo"
     weight = 1
 
     [[menu.nav]]
-    name = "Our Teacher"
+    name = "Teacher"
     URL = "about"
     weight = 2
 
     [[menu.nav]]
-    name = "FAQ"
-    URL = "services"
+    name = "School"
+    URL = "school"
     weight = 3
 
     [[menu.nav]]
-    name = "Our Board"
-    URL = "our-team"
+    name = "FAQ"
+    URL = "services"
     weight = 4
+
+    [[menu.nav]]
+    name = "Board"
+    URL = "our-team"
+    weight = 5
        
     [[menu.nav]]
-    name = "Our Traditions"
+    name = "Traditions"
     URL = "our-traditions"
-    weight = 5
-
-    [[menu.nav]]
-    name = "Our Classes"
-    URL = "pricing"
     weight = 6
 
-  
-
-
     [[menu.nav]]
-    name = "Philosophy"
-    URL = "philosophy"
+    name = "Classes"
+    URL = "pricing"
     weight = 7
 
     [[menu.nav]]

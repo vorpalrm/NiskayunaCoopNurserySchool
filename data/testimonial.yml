@@ -1,17 +1,17 @@
 enable : true
 bgImage : images/backgrounds/bg-2.jpg
 testimonialItem :
-  - name : Jonathon Andrew
-    image : images/team/client-1.jpg
-    date : Dec 26, 2018
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+  - name : Steve
+    image : 
+    date : 
+    content : We loved being helpers and seeing the kids grow and learn together…The Niskayuna Co-op Nursery School was a great experience for us and the kids.
     
-  - name : Jonathon Andrew
-    image : images/team/client-2.jpg
-    date : Dec 26, 2018
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+  - name : Nicole
+    image : 
+    date : 
+    content : The summer playdates were a great way to meet the families before the school year started.  I also appreciated the home visit before the start of school from our teacher Ms. Ober.  Her visit got my daughter so excited for her first day.
     
-  - name : Jonathon Andrew
-    image : images/team/client-1.jpg
-    date : Dec 26, 2018
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!
+  - name : Erin
+    image : 
+    date : 
+    content : Our new teacher, Ms. Pam Ober, has been a model of patience, kindness, and enthusiasm for our children.  Fall has been so much fun in Mrs. Ober's class.  We went  apple picking, tasted the apples for snack, then the children made a felt board model of the different types of apples.  We had a frighteningly cute Halloween parade and Party where the kids, parents, and Ms. Ober got in the spirit.  Most recently, we made a Sharing Soup that each child brought in an ingredient.  What a great hands-on way to taste the benefit of sharing!  We are looking forward to a terrific 2015 with Ms. Ober.

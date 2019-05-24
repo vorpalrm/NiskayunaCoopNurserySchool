@@ -1,6 +1,6 @@
 {{ if .Site.Data.philosophy.enable }}
 {{"<!-- philosophy 2 -->" | safeHTML}}
-<section class="bg-one about section" id="philosophy">
+<section class="bg-one about section" id="school">
     <div class="container-fluid">
         <div class="row">
 		            {{"<!-- section title -->" | safeHTML}}
@@ -9,10 +9,7 @@
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-            <div class="col-md-6 padding-0 ">
-                <img class="img-responsive" src="{{ .Site.Data.philosophy.image | absURL}}" alt="image">
-            </div>
-            <div class="col-md-6">
+            <div class="container-fluid">
                 <div class="content-block">
                    {{with .Site.Data.philosophy.title}} <h2>{{ . }}</h2> {{ end }}
                    {{with .Site.Data.philosophy.description}} <p>{{ . }}</p> {{ end }}
