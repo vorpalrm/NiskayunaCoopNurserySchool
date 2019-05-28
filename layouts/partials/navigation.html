@@ -31,8 +31,8 @@
                     <ul id="nav" class="nav navbar-nav navigation-menu">
                         <li><a data-scroll href="#body">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
                         {{ range $.Site.Menus.nav }}
-                        <li><a data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
-                        {{ end }}
+                        <li><a data-scroll href="{{ .URL }}">{{ .Name }}</a></li>
+                       {{ end }}
                     </ul>
                 </nav>
         {{ else }}
