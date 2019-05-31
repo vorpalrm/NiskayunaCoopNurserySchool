@@ -5,13 +5,14 @@
         <!--<div class="video-button">
            {{with .Site.Params.banner.icon}} <i class="{{ . }}"></i> {{ end }}
         </div>-->
-       {{with .Site.Params.banner.heading}} <h1>{{ . }}</h1>{{ end }}
+       {{with .Site.Params.banner.heading}} <h2>{{ . }}</h2>{{ end }}
        {{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}
        {{ if .Site.Params.banner.btn}}
         <a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-transparent">{{ .Site.Params.banner.btnText}}</a>
+        <a data-scroll href="{{ .Site.Params.banner.fbURL}}" class="btn btn-transparent">{{ .Site.Params.banner.fbText}}</a>
         {{ end }}
-        <h2><div class="fb-page" data-href="https://www.facebook.com/NiskayunaCoopNurserySchool/" data-tabs="timeline" data-height="10" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/NiskayunaCoopNurserySchool/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NiskayunaCoopNurserySchool/">Niskayuna Co-op Nursery School</a></blockquote></div></h2>
-    </div>
+        <!--<h3><div class="fb-page" data-href="https://www.facebook.com/NiskayunaCoopNurserySchool/" data-tabs="timeline" data-height="10" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/NiskayunaCoopNurserySchool/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/NiskayunaCoopNurserySchool/">Niskayuna Co-op Nursery School</a></blockquote></div></h3>
+    --></div>
 </section>
 {{"<!-- /Welcome Slider-->" | safeHTML}}
 {{end}}

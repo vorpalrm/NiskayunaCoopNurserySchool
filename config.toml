@@ -5,9 +5,10 @@ theme = "meghna-hugo"
 
 # Menu
 [menu]
+
     [[menu.nav]]
-    name = "Blog"
-    URL = "#blog"
+    name = "Classes"
+    URL = "#pricing"
     weight = 1
     external = false
 
@@ -30,20 +31,20 @@ theme = "meghna-hugo"
     external = false
 
     [[menu.nav]]
-    name = "Board"
-    URL = "#our-team"
+    name = "Traditions"
+    URL = "#our-traditions"
     weight = 5
     external = false
 
     [[menu.nav]]
-    name = "Traditions"
-    URL = "#our-traditions"
+    name = "Blog"
+    URL = "#blog"
     weight = 6
     external = false
 
     [[menu.nav]]
-    name = "Classes"
-    URL = "#pricing"
+    name = "Board"
+    URL = "#our-team"
     weight = 7
     external = false
 
@@ -58,7 +59,12 @@ theme = "meghna-hugo"
     URL = "https://niskayunanurseryschool-my.sharepoint.com/personal/admin_niskayunaco-opnurseryschool_com/Documents/Forms/All.aspx?cid=5e0b6781-4089-460f-aabc-60550c33e207&RootFolder=%2Fpersonal%2Fadmin_niskayunaco-opnurseryschool_com%2FDocuments%2FPublic&FolderCTID=0x0120002662D1B6EC465244B2307A8359019C8A"
     weight = 9
     external = true
-
+    
+    [[menu.nav]]
+    name = "Facebook"
+    URL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
+    weight = 10
+    external = true
 
 # Site params
 [params]
@@ -75,8 +81,10 @@ custom_css = ["css/custom.css"]
     heading = "Niskayuna Co-Op Nursery School"
     content= "Children are encouraged to be independent and self-motivated by learning through self-directed play and guided group activities. They are allowed to grow at their own pace while learning social, emotional, and intellectual skills."
     btn = true
-    btnText="Latest News"
-    btnURL="#blog"
+    btnText="Classes"
+    btnURL="#pricing"
+    fbURL="https://www.facebook.com/NiskayunaCoopNurserySchool/"
+    fbText= "Facebook"
 
     # call to action
     [params.cta]
