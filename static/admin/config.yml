@@ -11,5 +11,5 @@ backend:
       folder: "content/coding"
       create: true
       slug: "{{year}}-{{slug}}"
-      fields: 
-        -{label: "Title", name: "title", widget: "string", required: true}
+      fields:
+       - {label: "Title", name: "title", widget: "string", required: true}
