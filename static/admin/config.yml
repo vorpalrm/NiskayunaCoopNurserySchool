@@ -12,4 +12,4 @@ backend:
       create: true
       slug: "{{year}}-{{slug}}"
       fields: 
-        -{label: "Title",name: "title", widget: "string", required: true}
+        -{label: "Title", name: "title", widget: "string", required: true}
