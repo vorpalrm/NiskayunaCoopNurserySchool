@@ -6,7 +6,7 @@ pricingTable :
     price : $115
     time : month
     btnURL : https://forms.office.com/Pages/ResponsePage.aspx?id=k14FNi2NBUy_Bh6-vG_skBZyNlOPOc9DnYMbag8xunZUQzIyMlNYUTBVMjlZNVRQSjc1VUVESk1DVy4u
-    btnText : Signup
+    btnText : Request Information
     plan :
       - planDetails : 2-Day Class
       - planDetails : 9:00am - 11:30am Tue/Thur
@@ -18,7 +18,7 @@ pricingTable :
     price : $140
     time : month
     btnURL : https://forms.office.com/Pages/ResponsePage.aspx?id=k14FNi2NBUy_Bh6-vG_skBZyNlOPOc9DnYMbag8xunZUQzIyMlNYUTBVMjlZNVRQSjc1VUVESk1DVy4u
-    btnText : Signup
+    btnText : Request Information
     plan :
       - planDetails : 3-Day Class
       - planDetails : 9:00am - 11:30am Mon/Wed/Fri
