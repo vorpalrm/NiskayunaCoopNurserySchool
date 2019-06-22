@@ -1,153 +1,119 @@
 baseURL = "https://www.niskayunaco-opnurseryschool.com/"
 languageCode = "en-us"
-title = "Niskayuna Co-op Nursery School"
 theme = "meghna-hugo"
-
-# Menu
-[menu]
-
-    [[menu.nav]]
-    name = "Classes"
-    URL = "#pricing"
-    weight = 1
-    external = false
-
-    [[menu.nav]]
-    name = "Teacher"
-    URL = "#about"
-    weight = 2
-    external = false
-
-    [[menu.nav]]
-    name = "School"
-    URL = "#school"
-    weight = 3
-    external = false
-
-    [[menu.nav]]
-    name = "FAQ"
-    URL = "#services"
-    weight = 4
-    external = false
-
-    [[menu.nav]]
-    name = "Traditions"
-    URL = "#our-traditions"
-    weight = 5
-    external = false
-
-    [[menu.nav]]
-    name = "Blog"
-    URL = "#blog"
-    weight = 6
-    external = false
-
-    [[menu.nav]]
-    name = "Board"
-    URL = "#our-team"
-    weight = 7
-    external = false
-
-    [[menu.nav]]
-    name = "Contact"
-    URL = "#contact-us"
-    weight = 8
-    external = false
-
-    [[menu.nav]]
-    name = "Forms"
-    URL = "https://niskayunanurseryschool-my.sharepoint.com/:f:/g/personal/admin_niskayunaco-opnurseryschool_com/Elx4wjudw3hFkskgmojkouoBQSXwJDWvhspZlFT8TXk0Hg?e=VIhShf"
-    weight = 9
-    external = true
-    
-    [[menu.nav]]
-    name = "Facebook"
-    URL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
-    weight = 10
-    external = true
-
-# Site params
+title = "Niskayuna Co-op Nursery School"
+[[menu.nav]]
+URL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
+external = true
+name = "Facebook"
+weight = 10
+[[menu.nav]]
+URL = "https://niskayunanurseryschool-my.sharepoint.com/:f:/g/personal/admin_niskayunaco-opnurseryschool_com/Elx4wjudw3hFkskgmojkouoBQSXwJDWvhspZlFT8TXk0Hg?e=VIhShf"
+external = true
+name = "Forms"
+weight = 9
+[[menu.nav]]
+URL = "#contact-us"
+external = false
+name = "Contact"
+weight = 8
+[[menu.nav]]
+URL = "#our-team"
+external = false
+name = "Board"
+weight = 7
+[[menu.nav]]
+URL = "#blog"
+external = false
+name = "Blog"
+weight = 6
+[[menu.nav]]
+URL = "#our-traditions"
+external = false
+name = "Traditions"
+weight = 5
+[[menu.nav]]
+URL = "#services"
+external = false
+name = "FAQ"
+weight = 4
+[[menu.nav]]
+URL = "#school"
+external = false
+name = "School"
+weight = 3
+[[menu.nav]]
+URL = "#about"
+external = false
+name = "Teacher"
+weight = 1
+[[menu.nav]]
+URL = "#pricing"
+external = false
+name = "Classes"
+weight = 2
 [params]
-home= "Home"
-logo = "images/logo.jpg"
-gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
 custom_css = ["css/custom.css"]
-
-    # Banner Section
-    [params.banner]
-    enable = true
-    bgImage = "images/slider/hero-area.jpg"
-    icon = "tf-ion-play"
-    heading = "Niskayuna Co-Op Nursery School"
-    content= "Children are encouraged to be independent and self-motivated by learning through self-directed play and guided group activities. They are allowed to grow at their own pace while learning social, emotional, and intellectual skills."
-    btn = true
-    btnText="Classes"
-    btnURL="#pricing"
-    fbURL="https://www.facebook.com/NiskayunaCoopNurserySchool/"
-    fbText= "Facebook"
-
-    # call to action
-    [params.cta]
-    enable = false
-    title = "Great Design & Incredible Features"
-    content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
-    btnURL = "#"
-    btnText = "Start a project with us"
-
-    # counter
-    [params.counter]
-    enable = false
-    bgImage = "images/backgrounds/bg-1.jpg"
-        [[params.counter.counterItem]]
-        title = "Happy Clients"
-        icon = "tf-ion-android-happy"
-        count = "320"
-
-        [[params.counter.counterItem]]
-        title = "Projects completed"
-        icon = "tf-ion-archive"
-        count = "565"
-
-        [[params.counter.counterItem]]
-        title = "Positive feedback"
-        icon = "tf-ion-thumbsup"
-        count = "95"
-
-        [[params.counter.counterItem]]
-        title = "Cups of Coffee"
-        icon = "tf-ion-coffee"
-        count = "2500"
-	
-    # footer
-    [params.footer]
-        copyright = "Themefisher Team"
-        copyrightURL = "http://www.themefisher.com"
-
-        # social Icons
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-facebook"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-twitter"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-google-outline"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-youtube"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-linkedin"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-dribbble-outline"
-        url = "#"
-        
-        [[params.footer.socialIcon]]
-        icon = "tf-ion-social-pinterest-outline"
-        url = "#"
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
+home = "Home"
+logo = "images/logo.jpg"
+[params.banner]
+bgImage = "images/slider/hero-area.jpg"
+btn = true
+btnText = "Classes"
+btnURL = "#pricing"
+content = "Children are encouraged to be independent and self-motivated by learning through self-directed play and guided group activities. They are allowed to grow at their own pace while learning social, emotional, and intellectual skills."
+enable = true
+fbText = "Facebook"
+fbURL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
+heading = "Niskayuna Co-Op Nursery School"
+icon = "tf-ion-play"
+[params.counter]
+bgImage = "images/backgrounds/bg-1.jpg"
+enable = false
+[[params.counter.counterItem]]
+count = "320"
+icon = "tf-ion-android-happy"
+title = "Happy Clients"
+[[params.counter.counterItem]]
+count = "565"
+icon = "tf-ion-archive"
+title = "Projects completed"
+[[params.counter.counterItem]]
+count = "95"
+icon = "tf-ion-thumbsup"
+title = "Positive feedback"
+[[params.counter.counterItem]]
+count = "2500"
+icon = "tf-ion-coffee"
+title = "Cups of Coffee"
+[params.cta]
+btnText = "Start a project with us"
+btnURL = "#"
+content = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? Omnis accusantium ea reiciendis, fugit commodi nostrum."
+enable = false
+title = "Great Design & Incredible Features"
+[params.footer]
+copyright = "Themefisher Team"
+copyrightURL = "http://www.themefisher.com"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-facebook"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-twitter"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-google-outline"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-youtube"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-linkedin"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-dribbble-outline"
+url = "#"
+[[params.footer.socialIcon]]
+icon = "tf-ion-social-pinterest-outline"
+url = "#"
