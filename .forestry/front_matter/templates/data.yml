@@ -10,5 +10,3 @@ fields:
   config:
     maxSize: 250
   label: image
-pages:
-- content/data/asdf.yml
