@@ -3,55 +3,55 @@ languageCode = "en-us"
 theme = "meghna-hugo"
 title = "Niskayuna Co-op Nursery School"
 [[menu.nav]]
-URL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
-external = true
-name = "Facebook"
-weight = 10
-[[menu.nav]]
-URL = "https://niskayunanurseryschool-my.sharepoint.com/:f:/g/personal/admin_niskayunaco-opnurseryschool_com/Elx4wjudw3hFkskgmojkouoBQSXwJDWvhspZlFT8TXk0Hg?e=VIhShf"
-external = true
-name = "Forms"
-weight = 9
-[[menu.nav]]
-URL = "#contact-us"
+URL = "#pricing"
 external = false
-name = "Contact"
-weight = 8
+name = "Classes"
+weight = 1
 [[menu.nav]]
-URL = "#our-team"
+URL = "#about"
 external = false
-name = "Board"
-weight = 7
-[[menu.nav]]
-URL = "#blog"
-external = false
-name = "Blog"
-weight = 6
-[[menu.nav]]
-URL = "#our-traditions"
-external = false
-name = "Traditions"
-weight = 5
-[[menu.nav]]
-URL = "#services"
-external = false
-name = "FAQ"
-weight = 4
+name = "Teacher"
+weight = 2
 [[menu.nav]]
 URL = "#school"
 external = false
 name = "School"
 weight = 3
 [[menu.nav]]
-URL = "#about"
+URL = "#services"
 external = false
-name = "Teacher"
-weight = 1
+name = "FAQ"
+weight = 4
 [[menu.nav]]
-URL = "#pricing"
+URL = "#our-traditions"
 external = false
-name = "Classes"
-weight = 2
+name = "Traditions"
+weight = 5
+[[menu.nav]]
+URL = "#blog"
+external = false
+name = "Blog"
+weight = 6
+[[menu.nav]]
+URL = "#our-team"
+external = false
+name = "Board"
+weight = 7
+[[menu.nav]]
+URL = "#contact-us"
+external = false
+name = "Contact"
+weight = 8
+[[menu.nav]]
+URL = "https://niskayunanurseryschool-my.sharepoint.com/:f:/g/personal/admin_niskayunaco-opnurseryschool_com/Elx4wjudw3hFkskgmojkouoBQSXwJDWvhspZlFT8TXk0Hg?e=VIhShf"
+external = true
+name = "Forms"
+weight = 9
+[[menu.nav]]
+URL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
+external = true
+name = "Facebook"
+weight = 10
 [params]
 custom_css = ["css/custom.css"]
 gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"
