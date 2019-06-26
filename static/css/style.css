@@ -961,8 +961,6 @@ a:hover {
 ==================================================================*/
 .price-item {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  padding-bottom: 30px;
-  margin-bottom: 15px;
   align: center
 }
 
