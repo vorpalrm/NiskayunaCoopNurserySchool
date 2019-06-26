@@ -1,0 +1,14 @@
+---
+label: data
+hide_body: true
+fields:
+- name: enable
+  type: boolean
+  label: enable
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+pages:
+- content/data/asd.yml
