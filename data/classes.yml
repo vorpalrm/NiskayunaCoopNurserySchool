@@ -1,7 +1,7 @@
 enable : true
 heading : Our
 headingSpan : Classes
-pricingTable :
+classesTable :
   - title : 3-Year Old
     price : $115
     time : month
@@ -23,3 +23,6 @@ pricingTable :
       - planDetails : Registration fee $55
 btnURL : https://forms.office.com/Pages/ResponsePage.aspx?id=k14FNi2NBUy_Bh6-vG_skBZyNlOPOc9DnYMbag8xunZUQzIyMlNYUTBVMjlZNVRQSjc1VUVESk1DVy4u
 btnText : Request Information
+footerTable :
+  - footer : Children are not required to be potty trained before they start our 3-year-old class
+  - footer : Space still available in the two day class and limited space available in the three day class!

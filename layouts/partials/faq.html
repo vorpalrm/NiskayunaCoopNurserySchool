@@ -1,28 +1,28 @@
-{{ if .Site.Data.service.enable}}
-{{"<!-- service -->" | safeHTML }}
-<section id="services" class="bg-one section">
+{{ if .Site.Data.faq.enable}}
+{{"<!-- faq -->" | safeHTML }}
+<section id="faq" class="bg-one section">
     <div class="container">
         <div class="row">
 
             {{"<!-- section title -->" | safeHTML }}
             <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.service.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.service.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with .Site.Data.faq.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.faq.headingSpan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML }}
 
-            {{ range .Site.Data.service.serviceItem}}
-            {{"<!-- Single Service Item -->" | safeHTML }}
+            {{ range .Site.Data.faq.faqItem}}
+            {{"<!-- Single faq Item -->" | safeHTML }}
             <article class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
-                <div class="service-block text-left">
+                <div class="faq-block text-left">
                     <h3>{{ .title }}</h3>
                     <p>{{ .content }}</p>
                 </div>
             </article>
-            {{"<!-- End Single Service Item -->" | safeHTML }}
+            {{"<!-- End Single faq Item -->" | safeHTML }}
             {{ end }}
         </div>
     </div>
 </section>
-{{"<!-- /service -->" | safeHTML }}
+{{"<!-- /faq -->" | safeHTML }}
 {{ end }}

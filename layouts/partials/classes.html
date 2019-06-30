@@ -1,17 +1,17 @@
-{{ if .Site.Data.pricing.enable}}
-{{"<!-- Start Pricing section -->" | safeHTML}}
-<section id="pricing" class="pricing section">
+{{ if .Site.Data.classes.enable}}
+{{"<!-- Start classes section -->" | safeHTML}}
+<section id="classes" class="classes section">
     <div class="container">
         <div class="row">
 
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.pricing.heading }} {{ . }} {{ end }}<span class="color"> {{ with .Site.Data.pricing.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with .Site.Data.classes.heading }} {{ . }} {{ end }}<span class="color"> {{ with .Site.Data.classes.headingSpan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-				{{ range .Site.Data.pricing.pricingTable }}
-				{{"<!-- single pricing table -->" | safeHTML}}
+				{{ range .Site.Data.classes.classesTable }}
+				{{"<!-- single classes table -->" | safeHTML}}
 				<div class="col-md-6 col-sm-6 col-xs-6 text-center wow fadeInUp" data-wow-duration="200ms" border-radius:50%>
 					<div class="price-item">
 
@@ -30,16 +30,17 @@
 					</div>
 				</div>
 
-				{{"<!-- end single pricing table -->" | safeHTML}}
+				{{"<!-- end single classes table -->" | safeHTML}}
 				{{ end }}
 				{{"<!-- signup button -->" | safeHTML}}
 				<div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-				<a class="btn btn-main" href="{{ .Site.Data.pricing.btnURL | absURL}}" target="_blank">{{ .Site.Data.pricing.btnText }}</a>
+				<a class="btn btn-main" href="{{ .Site.Data.classes.btnURL | absURL}}" target="_blank">{{ .Site.Data.classes.btnText }}</a>
 				</div>
-				<p> - Children are not required to be potty trained before they start our 3-year-old class</p>
-				<p> - Space still available in the two day class and limited space available in the three day class!</p>
+				{{ range .Site.Data.classes.footerTable}}
+				<p>- {{ .footer}} </p>
+				{{ end }}
 		</div>
     </div>
 </section>
-{{"<!-- /pricing -->" | safeHTML}}
+{{"<!-- /classes -->" | safeHTML}}
 {{ end }}

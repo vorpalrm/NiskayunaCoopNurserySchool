@@ -3,12 +3,12 @@ languageCode = "en-us"
 theme = "meghna-hugo"
 title = "Niskayuna Co-op Nursery School"
 [[menu.nav]]
-URL = "#pricing"
+URL = "#classes"
 external = false
 name = "Classes"
 weight = 1
 [[menu.nav]]
-URL = "#about"
+URL = "#teacher"
 external = false
 name = "Teacher"
 weight = 2
@@ -18,7 +18,7 @@ external = false
 name = "School"
 weight = 3
 [[menu.nav]]
-URL = "#services"
+URL = "#faq"
 external = false
 name = "FAQ"
 weight = 4
@@ -33,7 +33,7 @@ external = false
 name = "Blog"
 weight = 6
 [[menu.nav]]
-URL = "#our-team"
+URL = "#our-board"
 external = false
 name = "Board"
 weight = 7
@@ -61,7 +61,7 @@ logo = "images/logo.jpg"
 bgImage = "images/slider/hero-area.jpg"
 btn = true
 btnText = "Classes"
-btnURL = "#pricing"
+btnURL = "#classes"
 content = "Children are encouraged to be independent and self-motivated by learning through self-directed play and guided group activities. They are allowed to grow at their own pace while learning social, emotional, and intellectual skills."
 enable = true
 fbText = "Facebook"

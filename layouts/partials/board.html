@@ -1,18 +1,18 @@
-{{ if .Site.Data.team.enable}}
-{{"<!-- Start Our Team -->" | safeHTML}}
-<section id="our-team" class="section">
+{{ if .Site.Data.board.enable}}
+{{"<!-- Start Our board -->" | safeHTML}}
+<section id="our-board" class="section">
     <div class="container">
         <div class="row">
 
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.team.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.team.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with .Site.Data.board.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.board.headingSpan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
 
-            {{ range .Site.Data.team.teamMember}}
-            {{"<!-- team member -->" | safeHTML}}
+            {{ range .Site.Data.board.boardMember}}
+            {{"<!-- board member -->" | safeHTML}}
             <div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
                 <div class="team-member">
                     <div class="member-photo">
@@ -37,10 +37,10 @@
                     </div>
                 </div>
             </div>
-            {{"<!-- end team member -->" | safeHTML}}
+            {{"<!-- end board member -->" | safeHTML}}
             {{ end }}
         </div>
     </div>
 </section>
-{{"<!-- /team -->" | safeHTML}}
+{{"<!-- /board -->" | safeHTML}}
 {{ end }}

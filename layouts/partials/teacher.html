@@ -1,25 +1,29 @@
-{{ if .Site.Data.philosophy.enable }}
-{{"<!-- philosophy 2 -->" | safeHTML}}
-<section class="bg-one about section" id="school">
+
+
+{{ if .Site.Data.teacher.enable }}
+{{"<!-- teacher -->" | safeHTML}}
+<section class="section teacher-2 padding-0 bg-dark" id="teacher">
     <div class="container-fluid">
         <div class="row">
 		            {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
-                <h2>{{ .Site.Data.philosophy.heading}} <span class="color">{{ .Site.Data.philosophy.headingSpan}}</span> </h2>
+                <h2>{{ .Site.Data.teacher.heading}} <span class="color">{{ .Site.Data.teacher.headingSpan}}</span> </h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-            <div class="container-fluid">
+            <div class="col-md-6 padding-0 pull-right ">
+                <img class="img-responsive" src="{{ .Site.Data.teacher.image | absURL}}" alt="image">
+            </div>
+            <div class="col-md-6">
                 <div class="content-block">
-                   {{with .Site.Data.philosophy.title}} <h2>{{ . }}</h2> {{ end }}
-                   {{with .Site.Data.philosophy.description}} <p>{{ . }}</p> {{ end }}
-                   {{with .Site.Data.philosophy.description2}} <p>{{ . }}</p> {{ end }}
-                   {{with .Site.Data.philosophy.description3}} <p>{{ . }}</p> {{ end }}
+                   {{with .Site.Data.teacher.title}} <h2>{{ . }}</h2> {{ end }}
+                   {{with .Site.Data.teacher.description}} <p>{{ . }}</p> {{ end }}
+                   {{with .Site.Data.teacher.description2}} <p>{{ . }}</p> {{ end }}
                     <div class="row">
-                        {{ range .Site.Data.philosophy.philosophyItem }}
+                        {{ range .Site.Data.teacher.teacherItem }}
                         <div class="col-md-6">
                             <div class="media">
-                                <div class="pull-right">
+                                <div class="pull-left">
                                    {{with .icon}} <i class="{{ . }}"></i> {{ end }}
                                 </div>
                                 <div class="media-body">
@@ -35,5 +39,5 @@
         </div>
     </div>
 </section>
-{{"<!-- /philosophy 2 -->" | safeHTML}}
+{{"<!-- /teacher 2 -->" | safeHTML}}
 {{ end }}

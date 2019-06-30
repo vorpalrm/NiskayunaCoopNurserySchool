@@ -1,7 +1,7 @@
 enable : true
 heading : FAQ
 headingSpan :
-serviceItem :
+faqItem :
   - icon : tf-globe
     title : Why don’t you have the alphabet, numbers, and the calendar decorating the walls of this classroom?
     content : Children learn best when they are learning in context. Teaching children to recite the alphabet, for example, does not encourage their literacy nearly as much as reading them a good story. As preschoolers mature, they become interested in letters, and they are encouraged to write their names, sculpt letters in clay, or form letters with rhythm sticks as they become interested in doing so. This provides them with the opportunity to learn in context, rather than passively observing letters on the walls. Similarly, children are counting while playing games and using one-to-one correspondence to share snacks with their friends, which will help them to understand math concepts. For three- and four-year-olds, keeping track of the dates, days of the week, and various months on a printed calendar is a tall order! Trying to use and discuss a printed calendar is simply not concrete enough for them and can lead to frustration. Instead, children learn about the calendar as they discuss seasons, weather, and celebrations and participate in fun activities like singing the days-ofthe-week song.  

@@ -957,7 +957,7 @@ a:hover {
 }
 
 /*=================================================================
-  Pricing section
+  classes section
 ==================================================================*/
 .price-item {
   border: 1px solid rgba(236, 239, 241, 0.07);
@@ -985,21 +985,21 @@ a:hover {
   font-size: 30px;
 }
 
-.pricing li {
+.classes li {
   padding: 10px 0;
   background-color:#d3d3d3
 }
 
-.pricing li:last-child {
+.classes li:last-child {
   border-bottom: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 20px;
 }
 
-.pricing li:nth-child(2n) {
+.classes li:nth-child(2n) {
   background-color: #ffffff;
 }
 
-.pricing li .btn {
+.classes li .btn {
   text-transform: uppercase;
   margin: 20px 0;
 }

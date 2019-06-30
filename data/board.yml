@@ -1,7 +1,7 @@
 enable : true
 heading : Our
 headingSpan : Board
-teamMember :
+boardMember :
   - name : Co-Chairs
     description : Danielle Giovannone & Angela Stokes
   - name : Vice Chair

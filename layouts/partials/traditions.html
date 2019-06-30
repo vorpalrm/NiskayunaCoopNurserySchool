@@ -1,4 +1,4 @@
-{{ if .Site.Data.team.enable}}
+{{ if .Site.Data.traditions.enable}}
 {{"<!-- Start Our Team -->" | safeHTML}}
 <section id="our-traditions" class="section">
     <div class="container">
@@ -11,7 +11,7 @@
             </div>
             {{"<!-- /section title -->" | safeHTML}}
             <div>
-            {{ range .Site.Data.traditions.teamMember}}
+            {{ range .Site.Data.traditions.traditions}}
             {{"<!-- team member -->" | safeHTML}}
             <div class="col-md-12 col-sm-12 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
                 <div class="team-member" border-radius:50%>
