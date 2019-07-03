@@ -15,21 +15,6 @@ fields:
   config:
     required: false
   label: headingSpan
-- name: boardmember
-  type: field_group
-  config: {}
-  fields:
-  - name: name
-    type: text
-    config:
-      required: false
-    label: name
-  - name: description
-    type: text
-    config:
-      required: false
-    label: description
-  label: boardMember
 pages:
 - data/board.yml
 - data/teacher.yml
