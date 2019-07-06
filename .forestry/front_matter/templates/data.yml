@@ -18,6 +18,5 @@ fields:
 pages:
 - data/traditions.yml
 - data/contact.yml
-- data/skill.yml
 - data/portfolio.yml
 - data/blog.yml
