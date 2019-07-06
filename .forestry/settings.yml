@@ -15,6 +15,15 @@ sections:
   create: none
   match: "**/*"
   new_doc_ext: yml
+  templates:
+  - board
+  - classes
+  - contact
+  - faq
+  - teacher
+  - testimonial
+  - tradition
+  - school
 - type: directory
   path: content
   label: Pages
