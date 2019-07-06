@@ -7,8 +7,10 @@ sections:
 - type: directory
   path: layouts/partials
   label: everything
-  create: all
+  create: none
   match: "**/*"
+  templates:
+  - classes-html-template
 - type: directory
   path: content/layouts
   label: layouts
