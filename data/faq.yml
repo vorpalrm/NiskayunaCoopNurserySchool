@@ -1,19 +1,69 @@
-enable : true
-heading : FAQ
-headingspan :
-items :
-  - icon : tf-globe
-    title : Why don’t you have the alphabet, numbers, and the calendar decorating the walls of this classroom?
-    content : Children learn best when they are learning in context. Teaching children to recite the alphabet, for example, does not encourage their literacy nearly as much as reading them a good story. As preschoolers mature, they become interested in letters, and they are encouraged to write their names, sculpt letters in clay, or form letters with rhythm sticks as they become interested in doing so. This provides them with the opportunity to learn in context, rather than passively observing letters on the walls. Similarly, children are counting while playing games and using one-to-one correspondence to share snacks with their friends, which will help them to understand math concepts. For three- and four-year-olds, keeping track of the dates, days of the week, and various months on a printed calendar is a tall order! Trying to use and discuss a printed calendar is simply not concrete enough for them and can lead to frustration. Instead, children learn about the calendar as they discuss seasons, weather, and celebrations and participate in fun activities like singing the days-ofthe-week song.  
-  - icon : tf-genius
-    title : No offense, but why do these kids’ crafts look so sloppy?
-    content : Because they truly are the kids’ crafts. At many schools you may see adorable matching crafts on the walls. These are cute, but they represent the product of a child who has been carefully directed by an adult to put eyes in the correct place and color items in a realistic way. Very occasionally, our students will receive specific guidance to help them follow a list of instructions, and children are encouraged to finish their project to feel a sense of success. But for the most part, children here encounter a variety of media and the opportunity to use them in different ways (adding glitter to clay, or driving trucks through paint to make tracks). Developmentally appropriate art focuses on process, not product.
-  - icon : tf-dial
-    title : Why should I enroll my child in your program if you’ve told me that children learn best through play instead of direct instruction?
-    content : The most crucial development in nursery school is emotional and social maturity learning to deal with other people, to use words instead of actions to articulate emotions, to negotiate, and to take turns. It is also important for children to become comfortable with the idea of school in a relaxed atmosphere with caring adults, your child will learn that school is wonderful. In a busy classroom filled with colorful toys and sometimes-boisterous playmates, children also begin to learn how to focus and concentrate in spite of distractions. Finally, play teaches children most effectively when facilitated and guided to a higher level with the help of an early childhood education expert, who can prompt children to recognize their own achievements and apply them to a wider context. This is a highly individualized process because children develop at different rates and they have different fears, likes, and dislikes. We don’t want our children to be bored or frustrated. At Niskayuna Co-op, we value and respect each child, and that’s why we continue to promote a developmentally appropriate program that allows children to explore and grow while gaining crucial social skills and the confidence that they will succeed in any setting
-  - icon : tf-dial
-    title : Why a co-op?
-    content : A cooperative nursery school is a school in which parents have the unique opportunity to participate in their child’s first experience with school. Through our “helping days,” parents enjoy the privilege of assisting the teacher in the classroom. It is tremendous fun to spend time with our children and their friends, and of course this allows us to see how they interact with others. The immediate appeal of the co-op is the hominess of the setting. Any trepidation about enrolling a 3, 4, or 5 year old in “school” is easily dispelled by the sight of busy, happy children engaging in both individual and spontaneous groups, in a wide variety of play ventures.
-  - icon : tf-dial
-    title : Is the preschool allergy-friendly?
-    content : The preschool building is a nut-free and tree-nut free zone. In addition, the class will meet at the beginning of the year to discuss any additional child's allergies and ensure all snacks brought into class are safe for all children to eat.
+---
+enable: true
+heading: FAQ
+headingspan: ''
+items:
+- icon: tf-globe
+  title: Why don’t you have the alphabet, numbers, and the calendar decorating the
+    walls of this classroom?
+  content: Children learn best when they are learning in context. Teaching children
+    to recite the alphabet, for example, does not encourage their literacy nearly
+    as much as reading them a good story. As preschoolers mature, they become interested
+    in letters, and they are encouraged to write their names, sculpt letters in clay,
+    or form letters with rhythm sticks as they become interested in doing so. This
+    provides them with the opportunity to learn in context, rather than passively
+    observing letters on the walls. Similarly, children are counting while playing
+    games and using one-to-one correspondence to share snacks with their friends,
+    which will help them to understand math concepts. For three- and four-year-olds,
+    keeping track of the dates, days of the week, and various months on a printed
+    calendar is a tall order! Trying to use and discuss a printed calendar is simply
+    not concrete enough for them and can lead to frustration. Instead, children learn
+    about the calendar as they discuss seasons, weather, and celebrations and participate
+    in fun activities like singing the days-ofthe-week song.
+- icon: tf-genius
+  title: No offense, but why do these kids’ crafts look so sloppy?
+  content: Because they truly are the kids’ crafts. At many schools you may see adorable
+    matching crafts on the walls. These are cute, but they represent the product of
+    a child who has been carefully directed by an adult to put eyes in the correct
+    place and color items in a realistic way. Very occasionally, our students will
+    receive specific guidance to help them follow a list of instructions, and children
+    are encouraged to finish their project to feel a sense of success. But for the
+    most part, children here encounter a variety of media and the opportunity to use
+    them in different ways (adding glitter to clay, or driving trucks through paint
+    to make tracks). Developmentally appropriate art focuses on process, not product.
+- icon: tf-dial
+  title: Why should I enroll my child in your program if you’ve told me that children
+    learn best through play instead of direct instruction?
+  content: The most crucial development in nursery school is emotional and social
+    maturity learning to deal with other people, to use words instead of actions to
+    articulate emotions, to negotiate, and to take turns. It is also important for
+    children to become comfortable with the idea of school in a relaxed atmosphere
+    with caring adults, your child will learn that school is wonderful. In a busy
+    classroom filled with colorful toys and sometimes-boisterous playmates, children
+    also begin to learn how to focus and concentrate in spite of distractions. Finally,
+    play teaches children most effectively when facilitated and guided to a higher
+    level with the help of an early childhood education expert, who can prompt children
+    to recognize their own achievements and apply them to a wider context. This is
+    a highly individualized process because children develop at different rates and
+    they have different fears, likes, and dislikes. We don’t want our children to
+    be bored or frustrated. At Niskayuna Co-op, we value and respect each child, and
+    that’s why we continue to promote a developmentally appropriate program that allows
+    children to explore and grow while gaining crucial social skills and the confidence
+    that they will succeed in any setting
+- icon: tf-dial
+  title: Why a co-op?
+  content: A cooperative nursery school is a school in which parents have the unique
+    opportunity to participate in their child’s first experience with school. Through
+    our “helping days,” parents enjoy the privilege of assisting the teacher in the
+    classroom. It is tremendous fun to spend time with our children and their friends,
+    and of course this allows us to see how they interact with others. The immediate
+    appeal of the co-op is the hominess of the setting. Any trepidation about enrolling
+    a 3, 4, or 5 year old in “school” is easily dispelled by the sight of busy, happy
+    children engaging in both individual and spontaneous groups, in a wide variety
+    of play ventures.
+- icon: tf-dial
+  title: Is the preschool allergy-friendly?
+  content: The preschool building is a nut-free and tree-nut free zone. In addition,
+    the class will meet at the beginning of the year to discuss any additional child's
+    allergies and ensure all snacks brought into class are safe for all children to
+    eat.
