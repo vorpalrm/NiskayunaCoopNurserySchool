@@ -20,7 +20,6 @@ pages:
 - data/teacher.yml
 - data/school.yml
 - data/faq.yml
-- data/classes.yml
 - data/contact.yml
 - data/skill.yml
 - data/testimonial.yml

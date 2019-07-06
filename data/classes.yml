@@ -1,28 +1,30 @@
-enable : true
-heading : Our
-headingspan : Classes
-class_table :
-  - title : 3-Year Old
-    price : $115
-    time : month
-    plan :
-      - details : 2-Day Class
-      - details : 9:00am - 11:30am Tue/Thur
-      - details : must turn 3 by Dec 1st of school year
-      - details : Supply fee $35
-      - details : Registration fee $55
-      
-  - title : 4-Year Old
-    price : $140
-    time : month
-    plan :
-      - details : 3-Day Class
-      - details : 9:00am - 11:30am Mon/Wed/Fri
-      - details : must turn 4 by Dec 1st of school year
-      - details : Supply fee $35
-      - details : Registration fee $55
-btn_url : https://forms.office.com/Pages/ResponsePage.aspx?id=k14FNi2NBUy_Bh6-vG_skBZyNlOPOc9DnYMbag8xunZUQzIyMlNYUTBVMjlZNVRQSjc1VUVESk1DVy4u
-btn_text : Request Information
-footer_table :
-  - footer : Children are not required to be potty trained before they start our 3-year-old class
-  - footer : Space still available in the two day class and limited space available in the three day class!
+---
+enable: true
+heading: Our
+headingspan: Classes
+class_table:
+- title: 3-Year Old
+  price: "$115"
+  time: month
+  plan:
+  - details: 2-Day Class
+  - details: 9:00am - 11:30am Tue/Thur
+  - details: must turn 3 by Dec 1st of school year
+  - details: Supply fee $35
+  - details: Registration fee $55
+- title: 4-Year Old
+  price: "$140"
+  time: month
+  plan:
+  - details: 3-Day Class
+  - details: 9:00am - 11:30am Mon/Wed/Fri
+  - details: must turn 4 by Dec 1st of school year
+  - details: Supply fee $35
+  - details: Registration fee $55
+btn_url: https://forms.office.com/Pages/ResponsePage.aspx?id=k14FNi2NBUy_Bh6-vG_skBZyNlOPOc9DnYMbag8xunZUQzIyMlNYUTBVMjlZNVRQSjc1VUVESk1DVy4u
+btn_text: Request Information
+footer_table:
+- footer: Children are not required to be potty trained before they start our 3-year-old
+    class
+- footer: Space still available in the two day class and limited space available in
+    the three day class!
