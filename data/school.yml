@@ -1,23 +1,55 @@
-enable : true
-image : images/about/Fred-Rogers.jpg
+---
+enable: true
+image: images/about/Fred-Rogers.jpg
 heading: Our School
-title : Our School
-description : Children are encouraged to be independent and self-motivated by learning through self-directed play and guided group activities. They are allowed to grow at their own pace while learning social, emotional, and intellectual skills.
-description2 : A cooperative nursery school is a school in which parents have the unique opportunity to participate in their child’s first experience with school. Through their involvement in the classroom, parents ease the children’s transition from home to a classroom environment while seeing for themselves how their children learn and grow and interact with others.
-description3 : Self Esteem and independence are so important in a child’s development. Niskayuna Co-operative Nursery School works with you and your child to develop these skills for the coming years. Your child will get the confidence they need to take the next step to Kindergarten and the Elementary School years ahead.
-items : 
-  - icon : tf-circle-compass
-    title : Family Involvement
-    content : Co-op parents assist our teacher in the classroom on a rotating basis.  “Helping parent” days are fun, and they allow parents to observe their children at school and to learn from the model of our professional teacher. Co-op families also develop a strong sense of community while serving on committees and visiting at social events. Whole families make friendships that last far beyond their time at the Co-op.
-
-  - icon : tf-hotairballoon
-    title : Play based learning
-    content : During play, the children at the Co-op are encouraged to be curious, to explore, and to problem solve.  As children engage in self-directed activities, the teacher supports their discovery by commenting, making occasional suggestions, and encouraging reflection. By following the child’s lead, our teacher communicates that the inclinations and ideas of each child are worthwhile, and facilitates each individual’s cognitive, academic, social-emotional, and motor development. 
-
-  - icon : tf-hotairballoon
-    title : A Typical Day
-    content : The Niskayuna Co-op is a carefully planned setting.  The physical environment is safe and the teacher gives children clear boundaries to ensure safety and encourage respect for others. Each day follows a simple routine. The children start with about an hour to choose their own activities from a variety of equipment and materials. Following clean up and a nutritious snack, the teacher directs large group activities, including stories, music, and group play.  Weather permitting, the children then go out to a well-equipped playground.  This daily routine is augmented by special projects, events, and occasional field trips.  After each day’s learning, our teacher emails parents about the children’s activities, including book titles, song lyrics, and other highlights.
-
-  - icon : tf-hotairballoon
-    title : Traditions
-    content : The Co-op has many traditions.   These include summer playdates, home visits, and phase-in days that support children’s transition into the school year.  Other traditions like apple picking, nature hikes, celebrating holidays, and hatching baby chicks extend learning.  The traditional pot-luck picnic, family dinner, and working together on school committees bring the Co-op families together.  And these are just a sampling of the fun traditions Co-op families enjoy.
+title: Our School
+description: Children are encouraged to be independent and self-motivated by learning
+  through self-directed play and guided group activities. They are allowed to grow
+  at their own pace while learning social, emotional, and intellectual skills.
+description2: A cooperative nursery school is a school in which parents have the unique
+  opportunity to participate in their child’s first experience with school. Through
+  their involvement in the classroom, parents ease the children’s transition from
+  home to a classroom environment while seeing for themselves how their children learn
+  and grow and interact with others.
+description3: Self Esteem and independence are so important in a child’s development.
+  Niskayuna Co-operative Nursery School works with you and your child to develop these
+  skills for the coming years. Your child will get the confidence they need to take
+  the next step to Kindergarten and the Elementary School years ahead.
+items:
+- icon: tf-circle-compass
+  title: Family Involvement
+  content: Co-op parents assist our teacher in the classroom on a rotating basis.  “Helping
+    parent” days are fun, and they allow parents to observe their children at school
+    and to learn from the model of our professional teacher. Co-op families also develop
+    a strong sense of community while serving on committees and visiting at social
+    events. Whole families make friendships that last far beyond their time at the
+    Co-op.
+- icon: tf-hotairballoon
+  title: Play based learning
+  content: During play, the children at the Co-op are encouraged to be curious, to
+    explore, and to problem solve.  As children engage in self-directed activities,
+    the teacher supports their discovery by commenting, making occasional suggestions,
+    and encouraging reflection. By following the child’s lead, our teacher communicates
+    that the inclinations and ideas of each child are worthwhile, and facilitates
+    each individual’s cognitive, academic, social-emotional, and motor development.
+- icon: tf-hotairballoon
+  title: A Typical Day
+  content: The Niskayuna Co-op is a carefully planned setting.  The physical environment
+    is safe and the teacher gives children clear boundaries to ensure safety and encourage
+    respect for others. Each day follows a simple routine. The children start with
+    about an hour to choose their own activities from a variety of equipment and materials.
+    Following clean up and a nutritious snack, the teacher directs large group activities,
+    including stories, music, and group play.  Weather permitting, the children then
+    go out to a well-equipped playground.  This daily routine is augmented by special
+    projects, events, and occasional field trips.  After each day’s learning, our
+    teacher emails parents about the children’s activities, including book titles,
+    song lyrics, and other highlights.
+- icon: tf-hotairballoon
+  title: Traditions
+  content: The Co-op has many traditions.   These include summer playdates, home visits,
+    and phase-in days that support children’s transition into the school year.  Other
+    traditions like apple picking, nature hikes, celebrating holidays, and hatching
+    baby chicks extend learning.  The traditional pot-luck picnic, family dinner,
+    and working together on school committees bring the Co-op families together.  And
+    these are just a sampling of the fun traditions Co-op families enjoy.
+headingspan: ''

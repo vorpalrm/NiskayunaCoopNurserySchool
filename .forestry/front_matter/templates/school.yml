@@ -36,3 +36,5 @@ fields:
   - type: textarea
     name: content
     label: content
+pages:
+- data/school.yml
