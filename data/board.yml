@@ -1,24 +1,25 @@
-enable : true
-heading : Our
-headingspan : Board
-members :
-  - name : Co-Chairs
-    description : Danielle Giovannone & Angela Stokes
-  - name : Vice Chair
-    description : Megan Rose
-  - name : Registrar
-    description : Brianna Kehrer
-  - name : Treasurer
-    description : Cindy DeFiore
-  - name : Secretary
-    description : Rebecca Yates
-  - name : Publicity
-    description : Kathleen Quigley
-  - name : Silent Auction
-    description : Laura Lyons & Sandra Quigley
-  - name : Fall Fundraising Chair
-    description : Laura Palmer & Jim Palmer
-  - name : Two Day Class Chair
-    description : Jennie Heck
-  - name : Three Day Class Chair
-    description : Christina Keith
+---
+enable: true
+heading: Our
+headingspan: Board
+members:
+- name: Co-Chairs
+  description: Danielle Giovannone & Angela Stokes
+- name: Vice Chair
+  description: Megan Rose
+- name: Registrar
+  description: Brianna Kehrer
+- name: Treasurer
+  description: Cindy DeFiore
+- name: Secretary
+  description: Rebecca Yates
+- name: Publicity
+  description: Kathleen Quigley
+- name: Silent Auction
+  description: Laura Lyons & Sandra Quigley
+- name: Fall Fundraising Chair
+  description: Laura Palmer & Jim Palmer
+- name: Two Day Class Chair
+  description: Jennie Heck
+- name: Three Day Class Chair
+  description: Christina Keith

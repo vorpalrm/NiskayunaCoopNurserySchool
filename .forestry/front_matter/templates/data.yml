@@ -16,7 +16,6 @@ fields:
     required: false
   label: headingSpan
 pages:
-- data/board.yml
 - data/traditions.yml
 - data/teacher.yml
 - data/school.yml

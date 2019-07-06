@@ -21,3 +21,5 @@ fields:
   - type: text
     name: description
     label: description
+pages:
+- data/board.yml
