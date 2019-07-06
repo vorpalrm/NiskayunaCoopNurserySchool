@@ -1,0 +1,26 @@
+---
+label: testimonial
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: file
+  name: bg_image
+  label: bg_image
+- type: field_group_list
+  name: items
+  label: items
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: image
+    label: image
+  - type: text
+    name: date
+    label: date
+  - type: textarea
+    name: content
+    label: content
