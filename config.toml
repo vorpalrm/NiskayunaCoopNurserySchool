@@ -3,10 +3,15 @@ languageCode = "en-us"
 theme = "meghna-hugo"
 title = "Niskayuna Co-op Nursery School"
 [[menu.nav]]
-URL = "#classes"
+URL = "#our-board"
 external = false
-name = "Classes"
-weight = 1
+name = "Board"
+weight = 7
+[[menu.nav]]
+URL = "#faq"
+external = false
+name = "FAQ"
+weight = 4
 [[menu.nav]]
 URL = "#teacher"
 external = false
@@ -18,11 +23,6 @@ external = false
 name = "School"
 weight = 3
 [[menu.nav]]
-URL = "#faq"
-external = false
-name = "FAQ"
-weight = 4
-[[menu.nav]]
 URL = "#our-traditions"
 external = false
 name = "Traditions"
@@ -32,11 +32,6 @@ URL = "#blog"
 external = false
 name = "Blog"
 weight = 6
-[[menu.nav]]
-URL = "#our-board"
-external = false
-name = "Board"
-weight = 7
 [[menu.nav]]
 URL = "#contact-us"
 external = false

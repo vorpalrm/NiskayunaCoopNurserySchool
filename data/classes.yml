@@ -28,3 +28,9 @@ footer_table:
     class
 - footer: Space still available in the two day class and limited space available in
     the three day class!
+menu:
+  nav:
+    URL: "#classes"
+    external: false
+    name: Classes
+    weight: 1
