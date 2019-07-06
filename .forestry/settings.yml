@@ -5,6 +5,11 @@ admin_path: forestry_admin
 webhook_url: 
 sections:
 - type: directory
+  path: static/css
+  label: css
+  create: all
+  match: "**/*"
+- type: directory
   path: layouts/partials
   label: everything
   create: none
