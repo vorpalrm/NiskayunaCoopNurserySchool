@@ -1,0 +1,46 @@
+---
+label: classes
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: headingspan
+  label: headingspan
+- type: field_group_list
+  name: class_table
+  label: class_table
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: price
+    label: price
+  - type: text
+    name: time
+    label: time
+  - type: field_group_list
+    name: plan
+    label: plan
+    fields:
+    - type: text
+      name: details
+      label: details
+- type: textarea
+  name: btn_url
+  label: btn_url
+- type: text
+  name: btn_text
+  label: btn_text
+- type: field_group_list
+  name: footer_table
+  label: footer_table
+  fields:
+  - type: text
+    name: footer
+    label: footer
