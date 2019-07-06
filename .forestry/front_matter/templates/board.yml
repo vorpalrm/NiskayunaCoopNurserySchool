@@ -1,0 +1,23 @@
+---
+label: board
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: headingspan
+  label: headingspan
+- type: field_group_list
+  name: members
+  label: members
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: description
+    label: description

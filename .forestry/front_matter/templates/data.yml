@@ -17,11 +17,11 @@ fields:
   label: headingSpan
 pages:
 - data/board.yml
+- data/traditions.yml
 - data/teacher.yml
 - data/school.yml
 - data/faq.yml
 - data/classes.yml
-- data/traditions.yml
 - data/contact.yml
 - data/skill.yml
 - data/testimonial.yml
