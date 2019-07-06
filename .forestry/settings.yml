@@ -36,7 +36,7 @@ sections:
   match: "**/*"
   templates:
   - blog-post
-upload_dir: static/images/*.*/*.*
+upload_dir: static/images/blog
 public_path: "/uploads"
 front_matter_path: ''
 use_front_matter_path: false
