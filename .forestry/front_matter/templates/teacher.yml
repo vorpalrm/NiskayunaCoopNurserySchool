@@ -1,0 +1,22 @@
+---
+label: Teacher
+hide_body: true
+fields:
+- type: boolean
+  name: enable
+  label: enable
+- type: text
+  name: heading
+  label: heading
+- type: text
+  name: headingspan
+  label: headingspan
+- type: file
+  name: image
+  label: image
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
