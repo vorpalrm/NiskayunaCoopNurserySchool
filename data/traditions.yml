@@ -1,6 +1,6 @@
 enable : true
 heading : Our
-headingSpan : Traditions
+headingspan : Traditions
 traditions :
   - name : Summer Play Dates and Picnic
     description : Parents coordinate their schedules to get together over the summer so that parents and children can become familiar with each other. Many pack a lunch every time, and traditionally, the final play date is joined by the teacher, who brings along dessert to share.

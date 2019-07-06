@@ -1,6 +1,6 @@
 enable : true
-bgImage : images/backgrounds/bg-2.jpg
-testimonialItem :
+bg_image : images/backgrounds/bg-2.jpg
+items :
   - name : Steve
     image : 
     date : 

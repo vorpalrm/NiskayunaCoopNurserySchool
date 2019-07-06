@@ -6,11 +6,11 @@
 
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.classes.heading }} {{ . }} {{ end }}<span class="color"> {{ with .Site.Data.classes.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with .Site.Data.classes.heading }} {{ . }} {{ end }}<span class="color"> {{ with .Site.Data.classes.headingspan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
-				{{ range .Site.Data.classes.classesTable }}
+				{{ range .Site.Data.classes.class_table }}
 				{{"<!-- single classes table -->" | safeHTML}}
 				<div class="col-md-6 col-sm-6 col-xs-6 text-center wow fadeInUp" data-wow-duration="200ms" border-radius:50%>
 					<div class="price-item">
@@ -24,7 +24,7 @@
 						{{"<!-- plan description -->" | safeHTML}}
 						<ul>
 							{{ range .plan }}
-							<li>{{ .planDetails }}</li>
+							<li>{{ .details }}</li>
 							{{ end }}
 						</ul>
 					</div>
@@ -34,9 +34,9 @@
 				{{ end }}
 				{{"<!-- signup button -->" | safeHTML}}
 				<div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-				<a class="btn btn-main" href="{{ .Site.Data.classes.btnURL | absURL}}" target="_blank">{{ .Site.Data.classes.btnText }}</a>
+				<a class="btn btn-main" href="{{ .Site.Data.classes.btn_url | absURL}}" target="_blank">{{ .Site.Data.classes.btn_text }}</a>
 				</div>
-				{{ range .Site.Data.classes.footerTable}}
+				{{ range .Site.Data.classes.footer_table}}
 				<p>- {{ .footer}} </p>
 				{{ end }}
 		</div>

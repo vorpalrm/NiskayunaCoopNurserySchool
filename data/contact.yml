@@ -1,13 +1,13 @@
 enable : true
 heading : Get In
-headingSpan : Touch
+headingspan : Touch
 title : Contact Details
 content : 
-btnURL : www.google.com
+btn_url : www.google.com
 enable_maps : true
-mapLatitude : 42.8022373
-mapLongitude: -73.9031225,623
-contactDetails :
+latitude : 42.8022373
+longitude: -73.9031225,623
+contact_details :
   - icon : tf-map-pin
     info : "852 Ashmore Avenue, Niskayuna, NY 12309"
     

@@ -6,12 +6,12 @@
 
             {{"<!-- section title -->" | safeHTML }}
             <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.faq.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.faq.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with .Site.Data.faq.heading }} {{ . }} {{ end }}<span class="color">{{ with .Site.Data.faq.headingspan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML }}
 
-            {{ range .Site.Data.faq.faqItem}}
+            {{ range .Site.Data.faq.items}}
             {{"<!-- Single faq Item -->" | safeHTML }}
             <article class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
                 <div class="faq-block text-left">

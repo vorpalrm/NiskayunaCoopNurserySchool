@@ -6,7 +6,7 @@
 
             {{"<!-- section title -->" | safeHTML}}
             <div class="title text-center wow fadeIn" data-wow-duration="500ms">
-                <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.contact.headingSpan }} {{ . }} {{ end }}</span></h2>
+                <h2>{{ with .Site.Data.contact.heading }} {{ . }} {{ end }} <span class="color">{{ with .Site.Data.contact.headingspan }} {{ . }} {{ end }}</span></h2>
                 <div class="border"></div>
             </div>
             {{"<!-- /section title -->" | safeHTML}}
@@ -16,7 +16,7 @@
                 {{ with .Site.Data.contact.title }}<h3>{{ . }}</h3> {{ end }}
                 {{ with .Site.Data.contact.content }} <p> {{ . }} </p> {{ end }}
                 <div class="contact-details">
-                    {{ range .Site.Data.contact.contactDetails }}
+                    {{ range .Site.Data.contact.contact_details }}
                     <div class="con-info clearfix">
                         <i class="{{ .icon }}"></i>
                         <span>{{ .info }}</span>
@@ -67,8 +67,8 @@
     {{ if .Site.Data.contact.enable_maps }}
     {{"<!-- Google Map -->" | safeHTML}}
     <div class="google-map">
-        <div id="map-canvas" {{ with .Site.Data.contact.mapLatitude }} data-latitude="{{ . }}" {{ end }} 
-        {{ with .Site.Data.contact.mapLongitude }} data-longitude="{{ . }}" {{ end }}></div>
+        <div id="map-canvas" {{ with .Site.Data.contact.latitude }} data-latitude="{{ . }}" {{ end }} 
+        {{ with .Site.Data.contact.longitude }} data-longitude="{{ . }}" {{ end }}></div>
     </div>
     {{ end }}
 
