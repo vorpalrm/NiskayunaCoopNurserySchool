@@ -4,21 +4,6 @@ auto_deploy: false
 admin_path: forestry_admin
 webhook_url: 
 sections:
-- type: document
-  path: static/css/style.css
-  label: css
-- type: directory
-  path: layouts/partials
-  label: everything
-  create: none
-  match: "**/*"
-  templates:
-  - classes-html-template
-- type: directory
-  path: content/layouts
-  label: layouts
-  create: all
-  match: "**/*"
 - type: directory
   path: data
   label: Data
