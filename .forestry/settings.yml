@@ -7,7 +7,6 @@ sections:
 - type: document
   path: static/css/style.css
   label: css
-  match: "**/*"
 - type: directory
   path: layouts/partials
   label: everything
