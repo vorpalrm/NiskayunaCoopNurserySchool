@@ -17,7 +17,6 @@ fields:
   label: headingSpan
 pages:
 - data/traditions.yml
-- data/teacher.yml
 - data/contact.yml
 - data/skill.yml
 - data/testimonial.yml
