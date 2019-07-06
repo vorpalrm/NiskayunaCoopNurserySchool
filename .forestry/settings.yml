@@ -20,11 +20,6 @@ sections:
   - tradition
   - school
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
   path: content/blog
   label: Blog
   create: all
