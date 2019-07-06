@@ -16,11 +16,11 @@ fields:
   label: items
   fields:
   - type: text
-    name: icon
-    label: icon
-  - type: text
     name: title
     label: title
+  - type: text
+    name: icon
+    label: icon
   - type: textarea
     name: content
     label: content
