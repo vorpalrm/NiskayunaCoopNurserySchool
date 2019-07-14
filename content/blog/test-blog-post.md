@@ -15,4 +15,4 @@ For 3-year-olds, preschool is on Tuesdays and Thursdays, September to June, from
 
 We are in an allergy-aware building, and we have experience with life-threatening allergies.
 
-The co-op also runs a class for 4- and 5-year-olds. It runs Monday, Wednesday and Friday, September to June.
+The co-op also runs a class for 4- and 5-year-olds. It runs Monday, Wednesday and Friday, September to June. 
