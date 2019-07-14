@@ -1,7 +1,7 @@
 +++
 author = "Sasha Spektor"
 date = "2019-07-14T00:00:00-04:00"
-image = "static/images/blog/66395517_2417749964953725_6794335260919201792_n.jpg"
+image = "images/blog/66395517_2417749964953725_6794335260919201792_n.jpg"
 title = "Is play-based preschool right for your 3-year-old? We're holding a tour on Friday at 3:30 p.m."
 
 +++
