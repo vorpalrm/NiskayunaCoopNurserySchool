@@ -3,6 +3,8 @@ enable: true
 heading: Our
 headingspan: Board
 members:
+- name: Spring Fundraiser Chair
+  description: Christina Keith and Sandra Quigley
 - name: Co-Chairs
   description: Rebecca Yates and Megan Rose
 - name: Vice Chair
