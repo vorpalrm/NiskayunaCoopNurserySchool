@@ -15,5 +15,3 @@ fields:
 - type: file
   name: image
   label: image
-pages:
-- content/blog/test-blog-post.md
