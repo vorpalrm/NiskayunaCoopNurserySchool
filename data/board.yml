@@ -3,23 +3,25 @@ enable: true
 heading: Our
 headingspan: Board
 members:
+- name: Spring Fundraiser Chair
+  description: Christina Keith and Sandra Quigley
 - name: Co-Chairs
-  description: Danielle Giovannone & Angela Stokes
+  description: Rebecca Yates and Megan Rose
 - name: Vice Chair
-  description: Megan Rose
+  description: Kristen Wagner
 - name: Registrar
-  description: Brianna Kehrer
+  description: Jennie Heck
 - name: Treasurer
   description: Cindy DeFiore
 - name: Secretary
-  description: Rebecca Yates
+  description: Open Position
 - name: Publicity
   description: Kathleen Quigley
 - name: Silent Auction
   description: Laura Lyons & Sandra Quigley
 - name: Fall Fundraising Chair
-  description: Laura Palmer & Jim Palmer
+  description: Shannon Sullivan and Matt Rufa
 - name: Two Day Class Chair
-  description: Jennie Heck
+  description: Open Position
 - name: Three Day Class Chair
-  description: Christina Keith
+  description: Open Position
