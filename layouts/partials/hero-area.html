@@ -6,7 +6,11 @@
            {{with .Site.Params.banner.icon}} <i class="{{ . }}"></i> {{ end }}
         </div>-->
        {{with .Site.Params.banner.heading}} <h2>{{ . }}</h2>{{ end }}
+       {{ if .Site.Params.banner.showLatestBlogPost}}
        {{ range first 1 .Data.Pages }}<p>{{ .Title }}<a class="btn btn-main" href="{{ .Permalink }}">Read more</a></p>{{end}}
+       {{else}}
+       {{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}
+       {{end}}
        {{ if .Site.Params.banner.btn}}
         <a data-scroll href="{{ .Site.Params.banner.btnURL}}" class="btn btn-transparent">{{ .Site.Params.banner.btnText}}</a>
         <a data-scroll href="{{ .Site.Params.banner.fbURL}}" class="btn btn-transparent">{{ .Site.Params.banner.fbText}}</a>
