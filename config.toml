@@ -56,31 +56,31 @@ logo = "images/logo.jpg"
 bgImage = "images/slider/hero-area.jpg"
 btn = true
 btnText = "Classes"
-btnURL = "#classes" 
-showLatestBlogPost = false
+btnURL = "#classes"
 content = "Children are encouraged to be independent and self-motivated by learning through self-directed play and guided group activities. They are allowed to grow at their own pace while learning social, emotional, and intellectual skills."
 enable = true
 fbText = "Facebook"
 fbURL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
 heading = "Niskayuna Co-Op Nursery School"
 icon = "tf-ion-play"
+showLatestBlogPost = true
 [params.counter]
 bgImage = "images/backgrounds/bg-1.jpg"
 enable = false
 [[params.counter.counterItem]]
-count = "320"
+count = 320
 icon = "tf-ion-android-happy"
 title = "Happy Clients"
 [[params.counter.counterItem]]
-count = "565"
+count = 565
 icon = "tf-ion-archive"
 title = "Projects completed"
 [[params.counter.counterItem]]
-count = "95"
+count = 95
 icon = "tf-ion-thumbsup"
 title = "Positive feedback"
 [[params.counter.counterItem]]
-count = "2500"
+count = 2500
 icon = "tf-ion-coffee"
 title = "Cups of Coffee"
 [params.cta]
