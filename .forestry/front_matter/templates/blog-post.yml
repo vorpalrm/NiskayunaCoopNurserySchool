@@ -15,3 +15,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- content/blog/open-house-aug-1-6-8-p-m-sign-up-before-the-school-year-starts-in-september.md
