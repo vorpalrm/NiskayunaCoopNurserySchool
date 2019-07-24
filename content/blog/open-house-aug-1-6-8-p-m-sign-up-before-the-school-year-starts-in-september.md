@@ -1,7 +1,6 @@
 +++
 author = "Sasha Spektor"
 date = "2019-07-24T00:00:00-04:00"
-draft = true
 image = "images/blog/FB_IMG_1564011594948.jpg"
 title = "Open house Aug. 1, 6-8 p.m.! Sign up before the school year starts in September!"
 
