@@ -63,7 +63,7 @@ fbText = "Facebook"
 fbURL = "https://www.facebook.com/NiskayunaCoopNurserySchool/"
 heading = "Niskayuna Co-Op Nursery School"
 icon = "tf-ion-play"
-showLatestBlogPost = true
+showLatestBlogPost = false
 [params.counter]
 bgImage = "images/backgrounds/bg-1.jpg"
 enable = false
