@@ -26,8 +26,8 @@ btn_text: Request Information
 footer_table:
 - footer: Children are not required to be potty trained before they start our 3-year-old
     class
-- footer: Space still available in the two day class and limited space available in
-    the three day class!
+- footer: Space still available in the two day class and waitlist is available for
+    three day class.
 menu:
   nav:
     URL: "#classes"
